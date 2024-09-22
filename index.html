@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Vite + Tailwind CSS</title>
+  </head>
+  <body class="bg-[#0F041C] text-[#fff]">
+    <div class="nav-hero__bg-img">
+      <header>
+        <nav>
+          <div class="container flex justify-between items-center">
+            <button class="nav__bnt bnt">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+            <ul class="gap-8 hidden lg:flex">
+              <li><a class="text-[#FFFFFFCC]" href="">Home</a></li>
+              <li><a class="text-[#FFFFFFCC]" href="">Catalog</a></li>
+              <li><a class="text-[#FFFFFFCC]" href="">Home</a></li>
+              <li><a class="text-[#FFFFFFCC]" href="">Home</a></li>
+              <li><a class="text-[#FFFFFFCC]" href="">Home</a></li>
+            </ul>
+
+            <div>
+              <img src="img/nav-img.svg" alt="" />
+            </div>
+            <div class="flex items-center gap-8">
+              <div class="lg:bg-[#FFFFFF0d] py-3 px-6 flex gap-[40px]">
+                <input
+                  class="bg-inherit hidden lg:block py-2 px-4 text-[#7B678A] border-transparent"
+                  type="text"
+                  placeholder="Search games  products..."
+                />
+                <a href="https://www.google.co.uz/?hl=ru">
+                  <img src="img/Search.svg" alt=""
+                /></a>
+              </div>
+              <div>
+                <a href="https://www.shopping.com/"
+                  ><img src="img/fi-rs-shopping-bag.svg" alt=""
+                /></a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+      <section class="pt-20">
+        <div class="container flex-1 lg:flex gap-28">
+          <div class="lg:w-1/2">
+            <span class="font-medium text-[#FFFFFFCC]">Virtual Headsets</span>
+            <h1
+              class="font-bold text-[44px] leading-[51px] lg:text-[80px] lg:leading-[96px]"
+            >
+              Experience a <br class="hidden lg:block" />
+              new dimension of reality
+            </h1>
+            <p class="font-medium text-[#FFFFFFCC] py-10 flex gap-3">
+              <img src="img/Star 4 (1).svg" alt="" />
+              Step into the future with our virtual headset, come to life right
+              <br class="hidden lg:block" />
+              before your eyes
+            </p>
+            <div
+              class="flex flex-col m-auto w-[250px] lg:w-auto lg:flex-row gap-6"
+            >
+              <button
+                class="flex hero_bnt gap-4 py-4 px-6 bg-[#3DDEED] text-black font-medium text-[18px] items-center rounded-md"
+              >
+                Visit Sttore <img src="img/arrow_forward.svg" alt="" />
+              </button>
+
+              <button
+                class="flex gap-4 bnt2 py-4 px-6 bg-[#ffffff09] font-medium text-[18px] items-center rounded-md"
+              >
+                <img src="img/explore.svg" alt="" />Visit Sttore
+              </button>
+            </div>
+
+            <p class="pt-10 pb-3">FOLLOW US</p>
+
+            <div class="flex gap-3 pb-7">
+              <a href="https://x.com/i/flow/login"
+                ><img class="hero__network p-3" src="img/twitter.svg" alt=""
+              /></a>
+              <a href="https://www.instagram.com/"
+                ><img class="hero__network p-3" src="img/instagram.svg" alt=""
+              /></a>
+              <a href="https://x.com/i/flow/login"
+                ><img
+                  class="hero__network p-3"
+                  src="img/ic_round-discord.svg"
+                  alt=""
+              /></a>
+              <a href="https://x.com/i/flow/login"
+                ><img class="hero__network p-3" src="img/facebook.svg" alt=""
+              /></a>
+            </div>
+          </div>
+
+          <div class="lg:w-1/2 relative">
+            <img
+              class="w-[570px] mt-5 is-checking lg:absolute"
+              src="img/hero image 1.png"
+              alt=""
+            />
+            <img
+              class="absolute hidden lg:block top-[-35px] left-[-160px]"
+              src="img/hero2.png"
+              alt=""
+            />
+            <img
+              class="absolute hidden lg:block right-[-20px] top-[100px]"
+              src="img/hero 3.png"
+              alt=""
+            />
+
+            <div
+              class="m-auto mt-11 lg:mt-[590px] flex flex-col lg:flex-row gap-6 lg:gap-[80px]"
+            >
+              <div class="flex gap-6">
+                <img src="img/bijibji.svg" alt="" />
+                <p class="text-[#FFFFFF99]">Enhanced Education</p>
+              </div>
+
+              <div class="flex gap-6">
+                <img src="img/bijibji.svg" alt="" />
+                <p class="text-[#FFFFFF99]">Enhanced Education</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <main>
+      <section>
+        <div
+          class="container lg:grid flex flex-col-reverse mt-[100px] gap-[30px] lg:mt-[210px] lg:grid-cols-2"
+        >
+          <div class="lg:p-[90px] lg:w-auto">
+            <img class="w-[662px]" src="img/Untitled-1 1.png" alt="" />
+          </div>
+
+          <div class="lg:w-auto">
+            <h3 class="text-[24px] lg:text-[56px] font-bold">
+              Our Virtual Headsets <br class="hidden lg:block" />
+              Shine with Unique <br class="hidden lg:blok" />
+              Features!
+            </h3>
+            <ul
+              class="relative mt-10 text-[#FFFFFF] grid grid-cols-1 lg:grid-cols-2 gap-[32px] text-[14px] lg:text-[16px]"
+            >
+              <li class="li__item pl-[38px] font-medium">
+                High-resolution OLED or LCD screens: <br />
+                Provide sharp and clear visuals.
+              </li>
+              <li
+                class="li__item2 hidden lg:block pl-3 lg:pl-[38px] font-medium"
+              >
+                High-resolution OLED or LCD screens: <br />
+                Provide sharp and clear visuals.
+              </li>
+              <li class="li__item pl-[38px] font-medium">
+                High-resolution OLED or LCD screens: <br />
+                Provide sharp and clear visuals.
+              </li>
+              <li class="li__item2 hidden lg:block pl-[38px] font-medium">
+                High-resolution OLED or LCD screens: <br />
+                Provide sharp and clear visuals.
+              </li>
+              <li class="li__item lg:block pl-[38px] font-medium">
+                High-resolution OLED or LCD screens: <br />
+                Provide sharp and clear visuals.
+              </li>
+              <li class="li__item2 hidden lg:block pl-[38px] font-medium">
+                High-resolution OLED or LCD screens: <br />
+                Provide sharp and clear visuals.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="">
+        <div class="container">
+          <div
+            class="py-16 px-6 lg:px-24 flex flex-col lg:flex-row items-center lg:items-start justify-between"
+          >
+            <div class="text-white lg:">
+              <h1 class="text-[24px] lg:text-6xl font-bold mb-4">
+                Jane Wilson, <br class="hidden lg:blok" />
+                Gaming Creator
+              </h1>
+              <p class="my-10 text-[14px] lg:text-[16px]">
+                A virtual headset creator is an individual or company that
+                specializes in designing <br class="hidden lg:blok" />
+                and manufacturing virtual reality headsets, also known as VR
+                headsets.
+              </p>
+              <button
+                class="bg-[#3DDEED1A] text-[#3DDEED] px-8 py-3 rounded flex gap-4 items-center font-medium"
+              >
+                Read my blog <img src="img/stelka.svg" alt="" />
+              </button>
+
+              <div class="flex items-center mt-8">
+                <div class="relative">
+                  <img
+                    class="h-10 w-10 mr-4"
+                    src="img/Polygon 7.svg"
+                    alt="Avatar"
+                  />
+                  <img
+                    class="h-10 w-10 absolute left-[16px] top-0 mr-4"
+                    src="img/Polygon 8.svg"
+                    alt="Avatar"
+                  />
+                  <img
+                    class="h-10 w-10 absolute top-0 left-[35px] mr-4"
+                    src="img/Polygon 9.svg"
+                    alt="Avatar"
+                  />
+                  <img
+                    class="h-10 w-10 absolute top-0 left-[53px]"
+                    src="img/Polygon 10.svg"
+                    alt="Avatar"
+                  />
+                  <img
+                    class="h-10 w-10 absolute top-0 left-[69px]"
+                    src="img/Polygon 11.svg"
+                    alt="Avatar"
+                  />
+                </div>
+
+                <span class="text-lg pl-[77px]">+258K Views</span>
+              </div>
+            </div>
+
+            <div class="relative lg:w-1/2 mt-10 lg:mt-0 lg:pl-16">
+              <img
+                class="rounded-lg w-full lg:left-[188px] lg:absolute"
+                src="img/Jane .png"
+                alt="Jane Wilson "
+              />
+
+              <div
+                class="lg:bottom-[-490px] top-[206px] lg:left-[99px] absolute bg-white lg:h-[230px] py-[12px] px-[20px] rounded-xl shadow-lg"
+              >
+                <div class="flex items-center mb-4">
+                  <img
+                    class="h-10 w-10 rounded-full mr-3"
+                    src="img/jane-chat.png"
+                    alt="Jane Wilson"
+                  />
+                  <div>
+                    <p class="text-[#141619] font-semibold">Jane Wilson</p>
+                    <p class="text-sm text-gray-500">@jwilson</p>
+                  </div>
+                </div>
+                <p
+                  class="text-[#141619] text-[22px] leading-8 tracking-[-0.7px]"
+                >
+                  Virtual headsets of the future is live!
+                </p>
+                <p class="text-sm text-gray-500 mt-2">
+                  09:28 · 2/12/20 ·
+                  <a class="text-[#188be9]" href="">Twitter Web App</a>
+                </p>
+
+                <div class="flex items-center mt-4 text-gray-500">
+                  <span class="mr-6">24,5k Retweets</span>
+                  <span>104,21k Likes</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="container">
+          <div
+            class="flex mt-[160px] lg:mt-[203px] flex-col lg:flex-row lg:justify-between items-center"
+          >
+            <h1 class="text-[24px] lg:text-[56px] font-bold">Top Games</h1>
+
+            <p class="text-[14px] lg:text-[16px]">
+              If you buy video 2 games, you will receive 1 <br />video game for
+              free, along with a 50% discount.
+            </p>
+
+            <div class="gap-6 hidden lg:flex">
+              <img class="cursor-pointer" src="img/cap.svg" alt="" />
+              <img class="cursor-pointer" src="img/on.svg" alt="" />
+            </div>
+          </div>
+
+          <div class="card__carusel mt-[48px]">
+            <div
+              class="wrapper overflow-x-scroll flex overflow-y-visible w-full gap-[32px]"
+            >
+              <div class="card">
+                <div class="relative">
+                  <img src="img/vere.png" alt="" />
+                </div>
+                <div class="mt-4">
+                  <h4
+                    class="font-bold text-[16px] lg:text-[32px] lg:tracking-[-2px]"
+                  >
+                    Horizon : Call of the mountain
+                  </h4>
+                </div>
+              </div>
+              <div class="card">
+                <div class="relative">
+                  <img src="img/vere2.png" alt="" />
+                </div>
+                <div class="mt-4">
+                  <h4
+                    class="font-bold text-[16px] lg:text-[32px] lg:tracking-[-2px]"
+                  >
+                    Half - Life : ALYX
+                  </h4>
+                </div>
+              </div>
+              <div class="card">
+                <div class="relative">
+                  <img src="img/vere3.png" alt="" />
+                </div>
+                <div class="mt-4">
+                  <h4 class="font-bold text-[32px] lg:tracking-[-2px]"></h4>
+                </div>
+              </div>
+              <div class="card">
+                <div class="relative">
+                  <img src="./img/vere.png" alt="" />
+                </div>
+                <div class="mt-4">
+                  <h4
+                    class="font-bold text-[16px] lg:text-[32px] lg:tracking-[-2px]"
+                  >
+                    Call of Duty : Coold War
+                  </h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="mt-[100px]">
+        <div class="container">
+          <h3 class="text-4xl lg:text-[56px] font-bold text-center">F.A.Q.</h3>
+
+          <ul class="mt-[40px]">
+            <li
+              class="faq__item group duration-[1s] font-[500] bg-[#FFFFFF0D] hover:bg-[#FFFFFF1A] py-8 px-10 desktop:w-2/3 tablet:w-2/3 mx-auto cursor-pointer border-b border-none pb-4"
+            >
+              <div class="flex justify-between gap-[32px]">
+                <div class="flex gap-[32px]">
+                  <p class="lg:text-[24px]">
+                    What are the different types of virtual headsets available?
+                  </p>
+                </div>
+
+                <svg
+                class="transition-transform duration-300 ease-in-out group-hover:rotate-180 faq__item__img"
+                  width="21"
+                  height="21"
+                  viewBox="0 0 21 21"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M20.8333 10.5L19.012 8.67871L11.7916 15.8862L11.7916 0.166626L9.20825 0.166626L9.20825 15.8862L1.98783 8.67871L0.166584 10.5L10.4999 20.8333L20.8333 10.5Z"
+                    fill="#fff"
+                  />
+                </svg>
+                
+              </div>
+              <div
+                class="mt-2 duration-[1s]  text-white transition-all ease-in-out group-hover:max-h-[200px] group-hover:visible max-h-0 overflow-hidden"
+              >
+                <p>
+                  Virtual headsets are equipped with various sensors to track
+                  the user's movements. These sensors can include
+                  accelerometers, gyroscopes, and sometimes external cameras or
+                  base stations. They constantly monitor the position and
+                  orientation of the headset and sometimes the user's hand
+                  controllers. <br><br> The headset has one or two high-resolution
+                  displays, one for each eye, positioned in front of the user's
+                  eyes. These displays show stereoscopic 3D images, creating a
+                  sense of depth and immersion. Between the displays and the
+                  user's eyes, help focus the images and adjust them for the
+                  user's field of view.
+                </p>
+              </div>
+            </li>
+      
+
+          <li
+          class="faq__item group font-[500] bg-[#FFFFFF0D] duration-[2s]  hover:bg-[#FFFFFF1A] py-8 px-10 desktop:w-2/3 tablet:w-2/3 mx-auto cursor-pointer border-b border-none pb-4"
+        >
+          <div class="flex justify-between gap-[32px]">
+            <div class="flex gap-[32px]">
+              <p class="lg:text-[24px]">
+                What are the different types of virtual headsets available?
+              </p>
+            </div>
+
+            <svg
+            class="transition-transform duration-300 ease-in-out group-hover:rotate-180 faq__item__img"
+              width="21"
+              height="21"
+              viewBox="0 0 21 21"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M20.8333 10.5L19.012 8.67871L11.7916 15.8862L11.7916 0.166626L9.20825 0.166626L9.20825 15.8862L1.98783 8.67871L0.166584 10.5L10.4999 20.8333L20.8333 10.5Z"
+                fill="#fff"
+              />
+            </svg>
+            
+          </div>
+          <div
+            class="mt-2  text-white transition-all duration-300 ease-in-out group-hover:max-h-[200px] group-hover:visible max-h-0 overflow-hidden"
+          >
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam facilis adipisci harum eaque. Velit cumque provident dicta, aperiam quis neque voluptatum quam!
+            </p>
+          </div>
+        </li>
+
+        <li
+        class="faq__item group font-[500] bg-[#FFFFFF0D] duration-[1s]  hover:bg-[#FFFFFF1A] py-8 px-10 desktop:w-2/3 tablet:w-2/3 mx-auto cursor-pointer border-b border-none pb-4"
+      >
+        <div class="flex justify-between gap-[32px]">
+          <div class="flex gap-[32px]">
+            <p class="lg:text-[24px]">
+              What are the different types of virtual headsets available?
+            </p>
+          </div>
+
+          <svg
+          class="transition-transform duration-300 ease-in-out group-hover:rotate-180 faq__item__img"
+            width="21"
+            height="21"
+            viewBox="0 0 21 21"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M20.8333 10.5L19.012 8.67871L11.7916 15.8862L11.7916 0.166626L9.20825 0.166626L9.20825 15.8862L1.98783 8.67871L0.166584 10.5L10.4999 20.8333L20.8333 10.5Z"
+              fill="#fff"
+            />
+          </svg>
+          
+        </div>
+        <div
+          class="mt-2  text-white transition-all duration-300 ease-in-out group-hover:max-h-[200px] group-hover:visible max-h-0 overflow-hidden"
+        >
+          <p>
+           Lorem ipsum dolor sit amet consectetur adipisicing elit. At et impedit error eaque voluptatum ad facere sunt tenetur id recusandae.
+          </p>
+        </div>
+      </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="bg-[#FFFFFF0D] mt-[132px] pt-[80px]">
+         <div class="container">
+          <div class="grid lg:grid-cols-3">
+
+            <div>
+              <img src="img/nav-img.svg" alt="">
+
+              <div class="flex gap-3 pb-7">
+
+                <a href="https://x.com/i/flow/login"
+                  ><img class="  p-3" src="img/twitter.svg" alt=""
+                /></a>
+
+                <a href="https://www.instagram.com/"
+                  ><img class=" p-3" src="img/instagram.svg" alt=""
+                /></a>
+
+                <a href="https://x.com/i/flow/login"
+                  ><img
+                    class=" p-3"
+                    src="img/ic_round-discord.svg"
+                    alt=""
+                /></a>
+
+                <a href="https://x.com/i/flow/login"
+                  ><img class=" p-3" src="img/facebook.svg" alt=""
+                /></a>
+              </div>
+
+              <p class="text-[#FFFFFFCC]">(+994) 199-28-786</p>
+            </div>
+
+            <div class="grid grid-cols-2 pt-10 mb-10">
+              <ul class="text-[#FFFFFFCC] ">
+                <li class="hover:text-[#fff]   duration-[1s]  hover:font-bold hover:text-[18px]">Menu</li>
+                <li class="hover:text-[#fff] pt-[23px] duration-[1s]  hover:font-bold hover:text-[18px]">Menu</li>
+                <li class="hover:text-[#fff]  pt-[23px] duration-[1s]   hover:font-bold hover:text-[18px]">Menu</li>
+                <li class="hover:text-[#fff]  pt-[23px] duration-[1s]   hover:font-bold hover:text-[18px]">Menu</li>
+                <li class="hover:text-[#fff]  pt-[23px] duration-[1s]   hover:font-bold hover:text-[18px]">Menu</li>
+              </ul>
+
+              <ul class="text-[#FFFFFFCC] ">
+                <li class="hover:text-[#fff]   duration-[1s] hover:font-bold hover:text-[18px]">Company</li>
+                <li class="hover:text-[#fff] pt-[23px] duration-[1s]  hover:font-bold hover:text-[18px]">Company</li>
+                <li class="hover:text-[#fff]  pt-[23px] duration-[1s]  hover:font-bold hover:text-[18px]">Company</li>
+                <li class="hover:text-[#fff]  pt-[23px] duration-[1s]  hover:font-bold hover:text-[18px]">Company</li>
+                <li class="hover:text-[#fff]  pt-[23px] duration-[1s]  hover:font-bold hover:text-[18px]">Company</li>
+              </ul>
+            </div>
+
+            <div>
+              <h6 class="text-[18px]">Subscribe Our News Letter</h6>
+              <p class="text-[#FFFFFFCC] pt-[24px] pb-10">Sure, please provide your email address to subscribe to newsletter</p>
+               <div class="flex flex-col lg:flex-row gap-5 lg:gap-0">
+              <input 
+              class="bg-inherit foot lg:block py-5 px-[100px] pr-[70px] lg:py-4 lg:px-9 text-[#7B678A] border-transparent"
+              type="email"
+              placeholder="Enter your mail..."
+            />
+          <button class=" bg-[#3DDEED] lg:py-[22px] py-5 px-[100px] lg:px-[29px] text-[#000]">Subscribe</button> </div>
+            </div>
+
+          </div>
+        <img class="pb-9" src="img/Line 4.png" alt="">
+        <p class="text-center text-[#FFFFFFCC]">© 2023 Your Company Name. All rights reserved.</p>
+         </div>
+    </footer>
+
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>

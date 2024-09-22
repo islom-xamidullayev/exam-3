@@ -1,0 +1,111 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --container-mobile-width: 100%;
+  overflow-x: hidden;
+}
+
+.nav__bnt {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.hero_bnt {
+  box-shadow: 0px 20px 49px 0px #3ddeed2b;
+}
+
+.nav__bnt span {
+  width: 20px;
+  height: 2px;
+  background: #fff;
+  display: block;
+  border-radius: 6px;
+}
+
+.bnt2 {
+  border: 1px solid #ffffff33;
+}
+
+.hero__network {
+  border: 2px solid #ffffff1a;
+  border-radius: 7px;
+
+}
+.is-checking {
+  border-bottom: 4px solid #bd00ff4d;
+
+  border-image-source: (
+    90deg,
+    rgba(189, 0, 255, 0) 1.52%,
+    rgba(189, 0, 255, 0.3) 100%
+  );
+}
+
+.li__item::before {
+  content: "";
+  position: absolute;
+  background-image: url("img/Star\ 5.svg");
+  width: 22px;
+  height: 22px;
+  background-size: cover;
+  left: -2px;
+}
+
+.li__item2::before {
+  content: "";
+  position: absolute;
+  background-image: url("img/Star\ 5.svg");
+  width: 22px;
+  height: 22px;
+  background-size: cover;
+  left: 350px;
+}
+
+.card {
+  @apply flex-none gap-[21px] w-[265px] desktop:w-[470px];
+
+  transition: 1.3s;
+}
+.card:hover {
+  color: #bd00ff;
+  /* box-shadow:  0px 10px 10px 0px  #BD00FF; */
+
+  box-shadow: inset 0 -3em 3em #53007080;
+}
+
+.wrapper::-webkit-scrollbar {
+  width: 0;
+}
+
+.card__carusel {
+  margin-left: 1rem;
+  width: calc(100vw - (100vw - var(--container-mobile-width)) / 2);
+}
+
+.faq__item:hover .faq__item__img path{
+  fill: #bd00ff;
+}
+.foot {
+  border: 1px solid #FFFFFF33
+}
+
+@media (min-width: 1024px) {
+  .nav__bnt {
+    display: none;
+  }
+  .nav-hero__bg-img {
+    background-image: url("img/nav-hero__bg-img.png");
+    margin-top: 47px;
+    height: 683px;
+
+    background-size: cover;
+  }
+
+  .card__carusel {
+    /* margin-left: calc((100vw - 1408px) / 2); */
+    width: calc(100vw - (100vw - 1408px) / 2);
+  }
+}
